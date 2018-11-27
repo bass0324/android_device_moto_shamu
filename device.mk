@@ -75,6 +75,8 @@ PRODUCT_CHARACTERISTICS := nosdcard
 DEVICE_PACKAGE_OVERLAYS := \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
 
 # OEM Package for RIL
 PRODUCT_PACKAGES += \
